@@ -1,0 +1,7 @@
+name: EnderPearls
+author: XFuryMCPE
+description: Toss enderpearls to teleport!
+website: http://www.Twitter.com/XFuryMCPE
+version: 1.0.0
+main: EnderPearls\MainClass
+api: [1.12.0,2.0.0]
