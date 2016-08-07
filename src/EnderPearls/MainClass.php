@@ -67,6 +67,7 @@ class MainClass extends PluginBase implements Listener{
 		$p = $e->getPlayer();
 		$i = $e->getItem();
 		if($i->getId() == $this->config->get("enderpearl-id")){
+			if($i->getId() == 332) $e->setCancelled();
 			$nbt = new CompoundTag ("",[ 
 				"Pos" => new ListTag ("Pos",[ 
 					new DoubleTag ("", $p->getX()),
